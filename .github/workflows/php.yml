@@ -24,4 +24,4 @@ jobs:
     - name: Run bot.php
       run: php bot.php
       env:
-      YOUR_TOKEN_HERE: ${{ secrets.YOUR_SECRET }}
+        YOUR_TOKEN_HERE: ${{ secrets.YOUR_SECRET }}
