@@ -11,10 +11,10 @@ PLEASE FOLLOW THE STEPS IN README.MD
 $token="YOUR_TOKEN_HERE"; 
 // Token of your Mastodon bot account
 
-$base_url="https://mastodon.social"; 
+$base_url="https://mastodon.world"; 
 // URL of your instance (Do not include '/' at the end.)
 
-$feed_url="https://example.com/feed.xml"; 
+$feed_url="https://moa-engine.github.io/blog/atom.xml"; 
 // URL of RSS or Atom feed
 
 $visibility="public"; 
@@ -23,7 +23,7 @@ $visibility="public";
 $public_frequency=1; 
 // If the value here is 3 and your $visibility value above is "public", then the toot's visibility will be made "public" every 3 toots. Other toots will be "unlisted" by default. If the value here is 1, it means that the visibility is always your $visibility value above.
 
-$language="en"; 
+$language="fa"; 
 // en for English, zh for Chinese, etc.
 
 header('Content-Type: text/html; charset=utf-8');
