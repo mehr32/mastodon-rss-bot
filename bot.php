@@ -8,7 +8,7 @@ PLEASE FOLLOW THE STEPS IN README.MD
 
 // Mastodon and RSS feed configuration:
 
-$token="YOUR_TOKEN_HERE"; 
+$token=getenv("YOUR_TOKEN_HERE"); 
 // Token of your Mastodon bot account
 
 $base_url="https://mastodon.world"; 
